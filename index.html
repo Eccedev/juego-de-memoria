@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de memoria</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+</head>
+
+<body>
+  <h1>Juego de memoria</h1>
+  <p class="p-text"><span class="nivel-actual">Nivel 1 :</span> cambiar a <a class="nivel-no-actual"
+      href="index2.html">Nivel 2</a></p>
+  <section class="memory-game">
+    <div class="memory-card" data-framework="pen">
+      <img class="front-face" src="img/nivel1/pen-tool-color-icon.svg" alt="pen"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+    <div class="memory-card" data-framework="pen">
+      <img class="front-face" src="img/nivel1/pen-tool-color-icon.svg" alt="pen"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+
+    <div class="memory-card" data-framework="magic">
+      <img class="front-face" src="img/nivel1/magic-wand-icon.svg" alt="magic-wand-icon"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+    <div class="memory-card" data-framework="magic">
+      <img class="front-face" src="img/nivel1/magic-wand-icon.svg" alt="magic-wand-icon"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+
+    <div class="memory-card" data-framework="painting">
+      <img class="front-face" src="img/nivel1/painting-icon.svg" alt="painting"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+    <div class="memory-card" data-framework="painting">
+      <img class="front-face" src="img/nivel1/painting-icon.svg" alt="painting"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+
+    <div class="memory-card" data-framework="reainbow">
+      <img class="front-face" src="img/nivel1/reainbow-icon.svg" alt="reainbow"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+    <div class="memory-card" data-framework="reainbow">
+      <img class="front-face" src="img/nivel1/reainbow-icon.svg" alt="reainbow"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+
+    <div class="memory-card" data-framework="snowflake">
+      <img class="front-face" src="img/nivel1/snowflake-color-icon.svg" alt="snowflake"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+    <div class="memory-card" data-framework="snowflake">
+      <img class="front-face" src="img/nivel1/snowflake-color-icon.svg" alt="snowflake"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+
+    <div class="memory-card" data-framework="web">
+      <img class="front-face" src="img/nivel1/website-design-icon.svg" alt="website-design-icon"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+    <div class="memory-card" data-framework="web">
+      <img class="front-face" src="img/nivel1/website-design-icon.svg" alt="website-design-icon"></img>
+      <img class="back-face" src="img/nivel1/js-badge.svg" alt="JS Badge"></img>
+    </div>
+  </section>
+  <p id="contador" class="p-intentos">Intentos: 0</p>
+  <a id="aa" class="link-reset" href="index.html">Reiniciar</a>
+
+  <div id="game-over-message" class="hidden-message">¡Felicidades, buena memoria!</div>
+
+  <footer class="foo">
+    <p class="foo-text">© 2024 by <a class="link-foo" href="https://github.com/Eccedev">Eccedev</a></p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
